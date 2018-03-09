@@ -1,0 +1,5 @@
+Typically, we work in teams and need to work on a codebase together.  The codebase is on a “central” server and people retrieve files from it and commit to it.
+
+Git refers to the centralized server as a “remote repository”.  The remote repo is usually not on your machine and is the one shared by the team. The team “pushes” commits to it when ready to share with the team. While one of your remote repos could be another team member’s local repo, in a corporate environment at least one (or the only!) is typically a Git repo on a server anointed as the central/official repo.
+
+Note that a remote repo is optional.  When not sharing code with others, there is technically no need for a remote repo (you may want one for backup or CI).  There is also no need for a remote repo if your local repo is considered the central one by all team members (which means your local repo is their remote repo).
